@@ -10,10 +10,12 @@ Summary:    Extend your attribute interfaces for Mouse
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source:     http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires:  perl-devel
+BuildRequires:  perl(Any::Moose)
 BuildRequires:  perl(Module::Build)
+BuildRequires:  perl(Mouse)
 BuildRequires:  perl(Test::Fatal)
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 BuildArch: noarch
+BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 Extend your attribute interfaces for Mouse
