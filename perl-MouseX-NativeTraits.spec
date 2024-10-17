@@ -7,7 +7,7 @@ Release:	4
 License:	Artistic
 Group:		Development/Perl
 Summary:	Extend your attribute interfaces for Mouse
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Any::Moose)
