@@ -1,14 +1,14 @@
 %define upstream_name       MouseX-NativeTraits
-%define upstream_version    1.04
+%define upstream_version    1.09
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 License:	Artistic
 Group:		Development/Perl
 Summary:	Extend your attribute interfaces for Mouse
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source:		http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/gfx/p5-MouseX-NativeTraits
+Source:		https://cpan.metacpan.org/authors/id/G/GF/GFUJI/MouseX-NativeTraits-%{upstream_version}.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Any::Moose)
